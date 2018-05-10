@@ -13,7 +13,7 @@ https://www.amazon.com/Kasstino-Female-Micro-Adapter-Tablet/dp/B01ICSIZ3U/ref=sr
 
 1.  `sudo apt-get update`
 2.  `sudo apt-get upgrade`
-3.  `sudo apt-get install dnsmasq hostapd`
+3.  `sudo apt-get install dnsmasq hostapd screen`
 
 4.  Edit `/etc/rc.local` and add the following ABOVE `exit 0`
 
@@ -61,3 +61,8 @@ rsn_pairwise=CCMP
 `net.ipv4.ip_forward=1`  
 
 9.  Reboot
+
+
+10.  Connect the Zero to the network device via USB.  
+
+11.  Login to the Zero remotely and run `screen /dev/ttyUSB0`
