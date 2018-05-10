@@ -66,3 +66,6 @@ rsn_pairwise=CCMP
 10.  Connect the Zero to the network device via USB.  
 
 11.  Login to the Zero remotely and run `screen /dev/ttyUSB0`
+
+12.  `CTRL-A` then `K` will break out and kill the "screen"  
+
