@@ -58,8 +58,8 @@ wpa_pairwise=TKIP
 rsn_pairwise=CCMP
 ```
 
-7.  Edit `/etc/default/hostapd and add this line:
-`DAEMON_CONF="/etc/hostapd/hostapd.conf"'
+7.  Edit `/etc/default/hostapd` and add this line:  
+`DAEMON_CONF="/etc/hostapd/hostapd.conf"`
 
 8.  If you intend to use an attached ethernet usb dongle or the Pi Zero as a wireless client WHILE it is an AP, you will need to allow for routing by editing `/etc/sysctl.conf` and uncommenting:
 `net.ipv4.ip_forward=1`  
@@ -71,5 +71,5 @@ rsn_pairwise=CCMP
 
 11.  Login to the Zero remotely and run `screen /dev/ttyUSB0`
 
-12.  `CTRL-A` then `K` will break out and kill the "screen"  
+12.  `CTRL-A` then type `K` will break out and kill the "screen"  
 
