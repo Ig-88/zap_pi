@@ -12,7 +12,8 @@ https://www.raspberrypi.org/products/raspberry-pi-zero-w/
 * Micro usb cable with power converter
 https://www.amazon.com/Kasstino-Female-Micro-Adapter-Tablet/dp/B01ICSIZ3U/ref=sr_1_11?s=pc&ie=UTF8&qid=1525978767&sr=1-11&keywords=micro+usb+male+to+usb+converter
 
-
+* USB Power Bandit  
+https://www.amazon.com/Ziotek-ZT1120133-HC1-Power-Bandit/dp/B00529EP6E  
 
 
 1.  `sudo apt-get update`
